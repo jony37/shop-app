@@ -37,17 +37,12 @@
     display: flex;
     list-style: none;
     padding-left: 0;
-    margin-left: 900px;
+    margin-left: 820px;
     margin-top: -76px;
 }
 
 .jonyAcc {
     text-align: center;
-}
-
-.jonyAcc a {
-    color: #dad5d5;
-    text-decoration: none;
 }
 
 .header-info-li-1 {
@@ -58,18 +53,10 @@
     width: 100px;
 }
 
-.header-info ul  {
-    width: 500px;
-}
-
 .header-info-li a {
     color: #dad5d5;
     text-decoration: none;
-    margin-left: 20px;
-}
-
-.home-boss-div {
-    height: 853px;
+    margin-left: 30px;
 }
 
 .home-nav-div {
@@ -140,4 +127,54 @@
 
 .home-nav-div ul .nav-li1:hover .home-params-div {
     display: inline;
+}
+
+.home-icons-div {
+    float: right;
+    margin-top: -30px;
+    display: flex;
+}
+
+.home-icons-div i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.home-icons-div i:hover {
+    color: rgb(83, 83, 229);
+    transition: 0.3s;
+}
+
+.fa-heart {
+    margin-right: 10px;
+}
+
+.fa-magnifying-glass {
+    margin-right: 30px;
+}
+
+.fa-cart-shopping {
+    margin-right: 30px;
+}
+
+ .icon-p1 {
+    background-color: rgb(83, 83, 229);
+    text-align: center;
+    width: 25px;
+    margin-left: 1240px;
+    margin-top: -50px;
+    border-radius: 40%;
+    position: absolute;
+    color: white;
+}
+
+.icon-p2 {
+    background-color: rgb(83, 83, 229);
+    text-align: center;
+    width: 25px;
+    margin-left: 130px;
+    margin-top: -20px;
+    border-radius: 40%;
+    position: absolute;
+    color: white;
 }

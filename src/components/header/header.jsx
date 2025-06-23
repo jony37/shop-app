@@ -11,7 +11,7 @@ const Header = () => {
               <ul>
                 <li className="header-info-li-1">Help & FAQs</li>
                 <li className="jonyAcc">
-                  <a href="#">My Account</a>
+                  My Account
                 </li>
                 <li className="header-info-li">
                   <a href="#">EN</a>
@@ -25,7 +25,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="home-boss-div">
+      <div className="header-navbar-div">
         <div className="container">
           <div className="home-nav-div">
             <img src={img} alt="" />
@@ -51,7 +51,13 @@ const Header = () => {
                 <a href="">Homepage 3</a>
               </p>
             </div>
-            <div className="home-icons-div"></div>
+              <p className="icon-p1">2</p>
+            <div className="home-icons-div">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <i class="fa-regular fa-heart"></i>
+              <p className="icon-p2">0</p>
+            </div>
           </div>
         </div>
       </div>

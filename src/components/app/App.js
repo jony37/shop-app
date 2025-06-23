@@ -19,6 +19,11 @@ import productImg10 from "../images/product-10.jpg";
 import productImg11 from "../images/product-11.jpg";
 import productImg12 from "../images/product-12.jpg";
 
+import bannerImg1 from '../images/banner-01.jpg.webp'
+import bannerImg2 from '../images/banner-02.jpg.webp'
+import bannerImg3 from '../images/banner-03.jpg.webp'
+
+
 function App() {
   const productData = [
     { tovarImg: productImg, tovarName: "Esprit Ruffle Shirt", price: "$16.64" },
@@ -34,12 +39,20 @@ function App() {
     // {tovarImg: productImg11, tovarName: "Esprit Ruffle Shirt", price: "$16.64"},
     // {tovarImg: productImg12, tovarName: "Esprit Ruffle Shirt", price: "$16.64"},
   ];
+
+  const BannerData = [
+    {bannerImg:bannerImg1, bannerTitle: 'Woman', bannerSubtitle: 'Spring 2018'},
+    {bannerImg:bannerImg2, bannerTitle: 'Men', bannerSubtitle: 'Spring 2018'},
+    {bannerImg:bannerImg3, bannerTitle: 'Accessories', bannerSubtitle: 'New Trend'}
+
+  ]
+
   return (
     <div>
       <Header/>
+      <Home />
       <div className="container">
-        <Home />
-        <Shop />
+        <Shop  BannerData={BannerData}/>
         <Product productData={productData} />
         <Footer />
       </div>

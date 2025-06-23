@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home-boss-div {
+}
+
+.home-boss-div img {
+    margin-top: -80px;
+    height: 862px;
+    width: 100%;
+}
