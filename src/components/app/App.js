@@ -6,6 +6,10 @@ import Shop from "../shop/shop";
 import Product from "../product/product";
 import Footer from "../footer/footer";
 
+import bannerImg1 from "../images/banner-01.jpg.webp";
+import bannerImg2 from "../images/banner-02.jpg.webp";
+import bannerImg3 from "../images/banner-03.jpg.webp";
+
 import productImg from "../images/product-01.jpg";
 import productImg2 from "../images/product-02.jpg";
 import productImg3 from "../images/product-03.jpg";
@@ -18,11 +22,6 @@ import productImg9 from "../images/product-09.jpg";
 import productImg10 from "../images/product-10.jpg";
 import productImg11 from "../images/product-11.jpg";
 import productImg12 from "../images/product-12.jpg";
-
-import bannerImg1 from '../images/banner-01.jpg.webp'
-import bannerImg2 from '../images/banner-02.jpg.webp'
-import bannerImg3 from '../images/banner-03.jpg.webp'
-
 
 function App() {
   const productData = [
@@ -85,18 +84,29 @@ function App() {
   ];
 
   const BannerData = [
-    {bannerImg:bannerImg1, bannerTitle: 'Woman', bannerSubtitle: 'Spring 2018'},
-    {bannerImg:bannerImg2, bannerTitle: 'Men', bannerSubtitle: 'Spring 2018'},
-    {bannerImg:bannerImg3, bannerTitle: 'Accessories', bannerSubtitle: 'New Trend'}
-
-  ]
+    {
+      bannerImg: bannerImg1,
+      bannerTitle: "Woman",
+      bannerSubtitle: "Spring 2018",
+    },
+    {
+      bannerImg: bannerImg2,
+      bannerTitle: "Men",
+      bannerSubtitle: "Spring 2018",
+    },
+    {
+      bannerImg: bannerImg3,
+      bannerTitle: "Accessories",
+      bannerSubtitle: "New Trend",
+    },
+  ];
 
   return (
     <div>
       <Header />
       <Home />
       <div className="container">
-        <Shop  BannerData={BannerData}/>
+        <Shop BannerData={BannerData} />
         <Product productData={productData} />
       </div>
       <Footer />
