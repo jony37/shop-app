@@ -1,0 +1,16 @@
+.shop-card-img {
+    width: 300px !important;
+} 
+
+.shop-card-img img {
+    width: 100% !important;
+}
+
+.shop-text {
+    position: absolute;
+    padding-top: 34px;
+}
+
+.shop-text h4 {
+    font-size: 38px;
+}

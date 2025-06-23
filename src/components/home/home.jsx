@@ -1,9 +1,10 @@
 import '../home/home.css'
+import img from '../images/slide-02.jpg'
 
 const Home = () => {
   return (
-    <div>
-        <h1>Home</h1>
+    <div className='home-boss-div'>
+        <img src={img} alt="" />
     </div>
   )
 }

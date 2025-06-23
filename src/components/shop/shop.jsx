@@ -1,9 +1,14 @@
-import '../shop/shop.css'
+import '../shop/shop.css';
+import ShopCard from './shop-card/shop-card';
 
-const Shop = () => {
+const Shop = ({BannerData}) => {
   return (
-    <div>
-        <h1>Shop</h1>
+    <div className='shop-boss-div d-flex'>
+      {
+        BannerData.map(item => (
+          <ShopCard img = {item.bannerImg} title = {item.bannerTitle} subtitle = {item.bannerSubtitle}/>
+        ))
+      }
     </div>
   )
 }
