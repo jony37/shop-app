@@ -1,0 +1,47 @@
+.product-title {
+  font-size: 36px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.product-filter nav li {
+  color: #797979;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  margin: 0px 14px;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+.product-filter nav .active {
+  color: black;
+  border-bottom: 1px solid black;
+}
+.product-filter nav li:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
+.product-filter nav li:first-child {
+  margin-left: 0px;
+}
+
+.product-filter .product-btns button {
+  min-width: 94px;
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  color: #888;
+  background: transparent;
+  margin: 0px 10px;
+  transition: all 0.5s;
+}
+.product-filter .product-btns button i { 
+    padding: 0px 3px;
+}
+.product-filter .product-btns button:hover {
+  border-color: #717fe0;
+  background-color: #717fe0;
+  color: #fff;
+}
+.product-filter {
+    margin-bottom: 40px;
+}

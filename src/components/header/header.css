@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.shipping-header {
+    display: flex;
+    padding-top: -5px;
+    background-color: #292828;
+    color: #dad5d5;
+    height: 50px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.shipping-header p {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 3.1;
+}
+
+.header-info ul li {
+    float: left;
+    padding: 15px;
+    margin-top: 9px;
+    border-right: 1px solid #dee2e6;
+    cursor: pointer;
+    width: 500px;
+
+}
+
+.header-info ul li:hover {
+    background-color: #343434;
+    transition: 0.5s;
+}
+.header-info ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 900px;
+    margin-top: -76px;
+}
+
+.jonyAcc {
+    text-align: center;
+}
+
+.jonyAcc a {
+    color: #dad5d5;
+    text-decoration: none;
+}
+
+.header-info-li-1 {
+    border-left: 1px solid #dee2e6;
+}
+
+.header-info-li {
+    width: 100px;
+}
+
+.header-info ul  {
+    width: 500px;
+}
+
+.header-info-li a {
+    color: #dad5d5;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.home-boss-div {
+    height: 853px;
+}
+
+.home-nav-div {
+    position: relative;
+    height: 80px;
+    width: 100%;
+}
+
+.home-nav-div img {
+    width: 12%;
+    margin-top: 40px;
+}
+
+.home-nav-div ul li {
+    float: left;
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.home-nav-div ul li:first-child {
+    color: rgb(72, 50, 240);
+}
+
+.home-nav-div ul li:hover {
+    color: rgb(72, 50, 240);
+    transition: 0.3s;
+}
+
+.home-nav-div ul {
+    margin-left: 14%;
+    margin-top: -24px;
+}
+
+.home-nav-div ul li a {
+    display: inline-block;
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 3%;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(241, 92, 117);
+    font-size: 13px;
+    font-family: monospace;
+    width: 3%;
+    border-radius: 15px;
+}  
+
+.home-params-div {
+    display: none;
+    background-color: white;
+    height: 160px;
+    width: 16%;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 270px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    
+}
+
+.home-params-div p a {
+    font-size: 20px;
+}
+
+.home-nav-div ul .nav-li1:hover .home-params-div {
+    display: inline;
+}
