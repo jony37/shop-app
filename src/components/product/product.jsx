@@ -30,7 +30,7 @@ const Product = ({ productData }) => {
           </div>
         </div>
 
-        <div className="productCards d-flex align-items-center">
+        <div className="productCards ">
           {productData.map((item) => (
             <ProductCard
               tovarImg={item.tovarImg}
@@ -38,7 +38,7 @@ const Product = ({ productData }) => {
               price={item.price}
             />
           ))}
-        </div>
+        </div> 
       </div>
     </div>
   );

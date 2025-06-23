@@ -1,0 +1,65 @@
+footer {
+  margin-top: 100px;
+  background-color: #222;
+  color: white;
+  padding: 50px 0px;
+}
+
+.title {
+  font-size: 19px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+footer ul {
+  padding: 0px;
+  margin-top:30px;
+
+}
+footer ul li {
+  color: #888;
+  padding: 10px 0px;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100px;
+}
+footer ul li:hover {
+  color: #717fe0;
+}
+
+.touch .subtitle {
+  color: #9a9a9a;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.touch .touch-icon i {
+  color: #888;
+  padding: 14px 14px;
+  font-size: 19px;
+}
+
+footer input {
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #888;
+  padding: 5px;
+  color: white;
+  transition: all 0.3s;
+}
+
+footer input:focus {
+  border-bottom: 3px solid #717fe0;
+}
+footer button {
+  background-color: #717fe0;
+  min-width: 179px;
+  height: 46px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 23px;
+  margin-top: 34px;
+}

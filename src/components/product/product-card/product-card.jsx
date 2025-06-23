@@ -8,7 +8,7 @@ const ProductCard = ({ tovarImg, tovarName, price }) => {
         <button className="product-card__btn">Quick View</button>
       </div>
       <div className="product-text">
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-between icon">
           <p className="product-card-title">{tovarName}</p>
           <i class="fa-regular fa-heart"></i>
         </div>

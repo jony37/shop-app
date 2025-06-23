@@ -22,27 +22,71 @@ import productImg12 from "../images/product-12.jpg";
 function App() {
   const productData = [
     { tovarImg: productImg, tovarName: "Esprit Ruffle Shirt", price: "$16.64" },
-    // {tovarImg: productImg2, tovarName: "Esprit Ruffle Shirt", price: "$16.64"},
-    // {tovarImg: productImg3, tovarName: "Esprit Ruffle Shirt", price: "$16.64"},
-    // {tovarImg: productImg4, tovarName: "Esprit Ruffle Shirt", price: "$16.64"},
-    // {tovarImg: productImg5, tovarName: "Esprit Ruffle Shirt", price: "$16.64"},
-    // {tovarImg: productImg6, tovarName: "Esprit Ruffle Shirt", price: "$16.64"},
-    // {tovarImg: productImg7, tovarName: "Esprit Ruffle Shirt", price: "$16.64"},
-    // {tovarImg: productImg8, tovarName: "Esprit Ruffle Shirt", price: "$16.64"},
-    // {tovarImg: productImg9, tovarName: "Esprit Ruffle Shirt", price: "$16.64"},
-    // {tovarImg: productImg10, tovarName: "Esprit Ruffle Shirt", price: "$16.64"},
-    // {tovarImg: productImg11, tovarName: "Esprit Ruffle Shirt", price: "$16.64"},
-    // {tovarImg: productImg12, tovarName: "Esprit Ruffle Shirt", price: "$16.64"},
+    {
+      tovarImg: productImg2,
+      tovarName: "Esprit Ruffle Shirt",
+      price: "$16.64",
+    },
+    {
+      tovarImg: productImg3,
+      tovarName: "Esprit Ruffle Shirt",
+      price: "$16.64",
+    },
+    {
+      tovarImg: productImg4,
+      tovarName: "Esprit Ruffle Shirt",
+      price: "$16.64",
+    },
+    {
+      tovarImg: productImg5,
+      tovarName: "Esprit Ruffle Shirt",
+      price: "$16.64",
+    },
+    {
+      tovarImg: productImg6,
+      tovarName: "Esprit Ruffle Shirt",
+      price: "$16.64",
+    },
+    {
+      tovarImg: productImg7,
+      tovarName: "Esprit Ruffle Shirt",
+      price: "$16.64",
+    },
+    {
+      tovarImg: productImg8,
+      tovarName: "Esprit Ruffle Shirt",
+      price: "$16.64",
+    },
+    {
+      tovarImg: productImg9,
+      tovarName: "Esprit Ruffle Shirt",
+      price: "$16.64",
+    },
+    {
+      tovarImg: productImg10,
+      tovarName: "Esprit Ruffle Shirt",
+      price: "$16.64",
+    },
+    {
+      tovarImg: productImg11,
+      tovarName: "Esprit Ruffle Shirt",
+      price: "$16.64",
+    },
+    {
+      tovarImg: productImg12,
+      tovarName: "Esprit Ruffle Shirt",
+      price: "$16.64",
+    },
   ];
   return (
     <div>
-      <Header/>
+      <Header />
       <div className="container">
         <Home />
         <Shop />
         <Product productData={productData} />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

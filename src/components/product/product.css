@@ -34,8 +34,8 @@
   margin: 0px 10px;
   transition: all 0.5s;
 }
-.product-filter .product-btns button i { 
-    padding: 0px 3px;
+.product-filter .product-btns button i {
+  padding: 0px 3px;
 }
 .product-filter .product-btns button:hover {
   border-color: #717fe0;
@@ -43,5 +43,30 @@
   color: #fff;
 }
 .product-filter {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.productCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 карточки в ряд */
+  gap: 20px;
+  padding: 20px;
+}
+.product-section__btn {
+  background-color: #e6e6e6;
+  border-radius: 23px;
+  height: 40px;
+  border: white;
+  font-size: 18px;
+  padding: 5px;
+  width: 180px;
+  height: 50px;
+  transition: all 0.5s;
+  text-align: center;
+  margin-left: 550px;
+  margin-top: 34px;
+}
+.product-section__btn:hover {
+  color: white;
+  background-color: black;
 }
