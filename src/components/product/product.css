@@ -50,7 +50,6 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 карточки в ряд */
   gap: 20px;
-  padding: 20px;
 }
 .product-section__btn {
   background-color: #e6e6e6;

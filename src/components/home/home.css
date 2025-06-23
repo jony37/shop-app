@@ -1,14 +1,39 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.home-boss-div {
-}
-
 .home-boss-div img {
-    margin-top: -80px;
-    height: 862px;
-    width: 100%;
+  margin-top: -80px;
+  /* height: 862px; */
+  width: 100%;
+}
+.home-boss-div {
+  transition: all 0.5s;
+}
+
+.home-text {
+  position: absolute;
+  margin-top: -550px;
+  color: #333;
+  margin-left: 240px;
+}
+
+.home-text p {
+  font-size: 34px;
+}
+
+.home-text h1 {
+  font-size: 56px;
+}
+
+.home-text button {
+  background-color: #717fe0;
+  color: white;
+  min-width: 161px;
+  height: 46px;
+  border-radius: 23px;
+  border: none;
+  margin-top: 18px;
+  transition: all 0.3s;
+}
+
+.home-text button:hover {
+  background-color: black;
+  color: white;
 }
